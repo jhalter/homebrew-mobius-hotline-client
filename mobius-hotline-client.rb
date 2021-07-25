@@ -10,7 +10,7 @@ class MobiusHotlineClient < Formula
   def install
     system "make", "build-client"
     bin.install "mobius-hotline-client"
-    etc.install ".mo"
+    etc.install "mobius-client-config.yaml"
   end
 
   test do
