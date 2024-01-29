@@ -8,8 +8,8 @@ class MobiusHotlineClient < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "build-darwin-amd64-client"
-    bin.install "dist/mobius_client_darwin_amd64/mobius-hotline-client" => "mobius-hotline-client"
+    system "go", "build", "./cmd/mobius-hotline-client"
+    bin.install "mobius-hotline-client" => "mobius-hotline-client"
     etc.install "cmd/mobius-hotline-client/mobius-client-config.yaml"  => "mobius-client-config.yaml" unless File.exist? etc/"mobius-client-config.yaml"
   end
 
