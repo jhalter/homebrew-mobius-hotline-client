@@ -2,7 +2,7 @@ class MobiusHotlineClient < Formula
   desc "CLI Hotline client"
   homepage "https://github.com/jhalter/mobius-hotline-client"
   url "https://github.com/jhalter/mobius-hotline-client/archive/refs/tags/v0.2.4.tar.gz"
-  sha256 "f100d2711411aadab4d054f68f9d291b4204e7aec550912a5c305d1260648998"
+  sha256 "0c48440022479d11edfbc02a46a5bfb3db554839c9196ec4dcd250787fe651ff"
   license "MIT"
 
   depends_on "go" => :build
