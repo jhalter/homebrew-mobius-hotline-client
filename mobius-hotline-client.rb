@@ -1,7 +1,7 @@
 class MobiusHotlineClient < Formula
   desc "CLI Hotline client"
-  homepage "https://github.com/jhalter/mobius"
-  url "https://github.com/jhalter/mobius/archive/refs/tags/v0.20.1.tar.gz"
+  homepage "https://github.com/jhalter/mobius-hotline-client"
+  url "https://github.com/jhalter/mobius-hotline-client/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "0c48440022479d11edfbc02a46a5bfb3db554839c9196ec4dcd250787fe651ff"
   license "MIT"
 
